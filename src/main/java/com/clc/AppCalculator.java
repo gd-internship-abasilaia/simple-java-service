@@ -10,6 +10,8 @@ public class AppCalculator {
         operator = args[1];
         y = Integer.parseInt(args[2]);
 
+        Calculator calculator = new Calculator();
+
         if (operator.equals("+")) {
             System.out.println(new Calculator().add(x, y));
         }
@@ -22,5 +24,5 @@ public class AppCalculator {
         if (operator.equals("-")) {
             System.out.println(new Calculator().subtract(x, y));
         }
-}
+   }
 }
