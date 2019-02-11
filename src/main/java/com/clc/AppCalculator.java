@@ -10,17 +10,19 @@ public class AppCalculator {
         operator = args[1];
         y = Integer.parseInt(args[2]);
 
+        Calculator calculator = new Calculator();
+
         if (operator.equals("+")) {
-            System.out.println(new Calculator().add(x, y));
+            System.out.println(calculator.add(x, y));
         }
         if (operator.equals("/")) {
-            System.out.println(new Calculator().divide(x, y));
+            System.out.println(calculator.divide(x, y));
         }
         if (operator.equals("*")) {
-            System.out.println(new Calculator().multiply(x, y));
+            System.out.println(calculator.multiply(x, y));
         }
         if (operator.equals("-")) {
-            System.out.println(new Calculator().subtract(x, y));
+            System.out.println(calculator.subtract(x, y));
         }
-}
+   }
 }
