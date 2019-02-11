@@ -1,4 +1,4 @@
-# Simple-java-service
+# simple-java-service
 A simple Java service that shows system info and performs arithmetic operations
 
 # How to run tests
@@ -17,3 +17,6 @@ java -jar target/Calc-1.0-SNAPSHOT.jar 3 + 5
 ```
 mvn checkstyle:checkstyle -Dcheckstyle.config.location=checkstyle.xml
 ```
+# Commit-plugin
+
+We get information about commit from the git.properties after package
