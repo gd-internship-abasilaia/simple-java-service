@@ -66,8 +66,7 @@
         </gitDescribe>
     </configuration>
     </plugin>
-    <plugin>
-      <!-- Build an executable JAR -->
+    <!--plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
       <version>3.0.2</version>
@@ -80,7 +79,7 @@
           </manifest>
         </archive>
       </configuration>
-    </plugin>
+    </plugin-->
            <plugin>
                         <groupId>org.apache.maven.plugins</groupId>                        
                         <artifactId>maven-deploy-plugin</artifactId>
